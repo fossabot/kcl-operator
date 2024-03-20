@@ -3,6 +3,7 @@
 [![Go Report Card](https://goreportcard.com/badge/kcl-lang.io/kcl-operator)](https://goreportcard.com/report/kcl-lang.io/kcl-operator)
 [![GoDoc](https://godoc.org/kcl-lang.io/kcl-operator?status.svg)](https://godoc.org/kcl-lang.io/kcl-operator)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://kcl-lang.io/kcl-operator/blob/main/LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fkcl-operator.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fkcl-operator?ref=badge_shield)
 
 KCL Operator provides cluster integration, allowing you to use Access Webhook to generate, mutate, or validate resources based on KCL configuration when apply resources to the cluster. Webhook will capture creation, application, and editing operations, and execute [KCLRun](https://github.com/kcl-lang/krm-kcl) on the configuration associated with each operation, and the KCL programming language can be used to
 
@@ -103,3 +104,7 @@ See [here](https://kcl-lang.io/docs/reference/lang/tour) to study more features 
 ## Examples
 
 See [here](https://github.com/kcl-lang/krm-kcl/tree/main/examples) for more examples.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fkcl-operator.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fkcl-operator?ref=badge_large)
